@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Send+Flowers&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    /* padding: 30px 0; */
+    font-family: 'Ubuntu', sans-serif;
+    /* transition: all 0.3s ease; */
+    background-color: brown;
+}
+
+.menu{
+    color: blue;
+    list-style: none;
+    display: inline-block;
+
+}
+
+.logo{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.max-width{
+
+}
+
+
+=========================
+/* navbar styling */
+/* .navbar{
+    position: fixed;
+    width: 100%;
+    background: crimson;
+    font-family: 'Ubuntu',sans-serif;
+}
+.navbar.max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu li a{
+    color: #fff;
+}  */
